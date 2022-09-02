@@ -1,0 +1,1545 @@
+[debug] [2022-09-02T14:59:20.026Z] ----------------------------------------------------------------------
+[debug] [2022-09-02T14:59:20.031Z] Command:       C:\node\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-09-02T14:59:20.032Z] CLI Version:   11.8.0
+[debug] [2022-09-02T14:59:20.032Z] Platform:      win32
+[debug] [2022-09-02T14:59:20.033Z] Node Version:  v16.13.1
+[debug] [2022-09-02T14:59:20.043Z] Time:          Fri Sep 02 2022 20:29:20 GMT+0530 (India Standard Time)
+[debug] [2022-09-02T14:59:20.044Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-02T14:59:20.256Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-02T14:59:20.257Z] > authorizing via signed-in user (m31negisomeone@gmail.com)
+[debug] [2022-09-02T14:59:20.850Z] java version "17.0.2" 2022-01-18 LTS
+
+[debug] [2022-09-02T14:59:20.851Z] Java(TM) SE Runtime Environment (build 17.0.2+8-LTS-86)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.2+8-LTS-86, mixed mode, sharing)
+
+[debug] [2022-09-02T14:59:20.881Z] Parsed Java major version: 17
+[info] i  emulators: Starting emulators: functions, hosting, storage {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting, storage"}}
+[debug] [2022-09-02T14:59:20.908Z] [hub] writing locator at C:\Users\HP\AppData\Local\Temp\hub-e-commerce-fadd7.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, eventarc {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, eventarc\u001b[22m"}}
+[info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-09-02T14:59:20.978Z] defaultcredentials: writing to file C:\Users\HP\AppData\Roaming\firebase\m31negisomeone_gmail_com_application_default_credentials.json
+[debug] [2022-09-02T14:59:20.982Z] Setting GAC to C:\Users\HP\AppData\Roaming\firebase\m31negisomeone_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\HP\\AppData\\Roaming\\firebase\\m31negisomeone_gmail_com_application_default_credentials.json"}}
+[debug] [2022-09-02T14:59:20.987Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-fadd7/adminSdkConfig [none]
+[debug] [2022-09-02T14:59:21.474Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-fadd7/adminSdkConfig 200
+[debug] [2022-09-02T14:59:21.474Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-fadd7/adminSdkConfig {"projectId":"e-commerce-fadd7","storageBucket":"e-commerce-fadd7.appspot.com","locationId":"us-central"}
+[debug] [2022-09-02T14:59:21.519Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"storage"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-09-02T14:59:23.795Z] Temp file directory for storage emulator: C:\Users\HP\AppData\Local\Temp/firebase/storage/blobs {"metadata":{"emulator":{"name":"storage"},"message":"Temp file directory for storage emulator: C:\\Users\\HP\\AppData\\Local\\Temp/firebase/storage/blobs"}}
+[debug] [2022-09-02T14:59:23.812Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/e-commerce-fadd7/sites 
+[debug] [2022-09-02T14:59:25.201Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/e-commerce-fadd7/sites 200
+[debug] [2022-09-02T14:59:25.201Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/e-commerce-fadd7/sites {"sites":[{"name":"projects/e-commerce-fadd7/sites/e-commerce-fadd7","defaultUrl":"https://e-commerce-fadd7.web.app","appId":"1:1004296302046:web:8c460901f61f413c25c14f","type":"DEFAULT_SITE"}]}
+[debug] [2022-09-02T14:59:25.202Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-fadd7/webApps/1:1004296302046:web:8c460901f61f413c25c14f/config [none]
+[debug] [2022-09-02T14:59:26.477Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-fadd7/webApps/1:1004296302046:web:8c460901f61f413c25c14f/config 200
+[debug] [2022-09-02T14:59:26.478Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-fadd7/webApps/1:1004296302046:web:8c460901f61f413c25c14f/config {"projectId":"e-commerce-fadd7","appId":"1:1004296302046:web:8c460901f61f413c25c14f","storageBucket":"e-commerce-fadd7.appspot.com","locationId":"us-central","apiKey":"AIzaSyCDMEkhRPHVj3089imCMq9C-l9FbV2gqzE","authDomain":"e-commerce-fadd7.firebaseapp.com","messagingSenderId":"1004296302046","measurementId":"G-WBYKCDVN2S"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2022-09-02T14:59:26.538Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-09-02T14:59:26.539Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-09-02T14:59:26.539Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\HP\\.cache\\firebase\\emulators\\ui-v1.9.0\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\HP\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.9.0\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-09-02T14:59:26.827Z] Web / API server started at localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[info] i  functions: Watching "C:\Users\HP\Desktop\ecommerce-app\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\HP\\Desktop\\ecommerce-app\\functions\" for Cloud Functions..."}}
+[debug] [2022-09-02T14:59:27.073Z] Validating nodejs source
+[debug] [2022-09-02T14:59:32.249Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^10.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-09-02T14:59:32.249Z] Building nodejs source
+[debug] [2022-09-02T14:59:32.250Z] Analyzing nodejs backend spec
+[debug] [2022-09-02T14:59:32.253Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-09-02T14:59:32.820Z] Serving at port 9005
+
+[debug] [2022-09-02T14:59:33.138Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-09-02T14:59:33.152Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[info] +  functions[us-central1-api]: http function initialized (http://localhost:5001/e-commerce-fadd7/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/e-commerce-fadd7/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ localhost:5000 │ n/a                             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Storage   │ localhost:9199 │ http://localhost:4000/storage   │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-09-02T14:59:44.713Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-09-02T14:59:44.714Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-09-02T14:59:44.715Z] Accepted request GET /e-commerce-fadd7/us-central1/api --> us-central1-api
+[debug] [2022-09-02T14:59:44.882Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-09-02T14:59:44.883Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-09-02T14:59:44.883Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-09-02T14:59:44.884Z] [worker-us-central1-api-1c41068f-8a95-44c6-8cf6-404bdac7b3a4]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-1c41068f-8a95-44c6-8cf6-404bdac7b3a4]: BUSY"}}
+[debug] [2022-09-02T14:59:49.597Z] [runtime-status] [13076] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\HP\\Desktop\\ecommerce-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\HP\\\\Desktop\\\\ecommerce-app\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-09-02T14:59:49.599Z] [runtime-status] [13076] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"C:\\Users\\HP\\Desktop\\ecommerce-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"C:\\\\Users\\\\HP\\\\Desktop\\\\ecommerce-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-09-02T14:59:49.599Z] [runtime-status] [13076] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-09-02T14:59:49.603Z] [runtime-status] [13076] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"C:\\Users\\HP\\Desktop\\ecommerce-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"C:\\\\Users\\\\HP\\\\Desktop\\\\ecommerce-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-09-02T14:59:49.733Z] [runtime-status] [13076] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-09-02T14:59:49.735Z] [runtime-status] [13076] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.23.0","resolution":"C:\\Users\\HP\\Desktop\\ecommerce-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"C:\\\\Users\\\\HP\\\\Desktop\\\\ecommerce-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-09-02T14:59:49.741Z] [runtime-status] [13076] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"C:\\Users\\HP\\Desktop\\ecommerce-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"C:\\\\Users\\\\HP\\\\Desktop\\\\ecommerce-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-09-02T14:59:49.747Z] [runtime-status] [13076] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\HP\\Desktop\\ecommerce-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\HP\\\\Desktop\\\\ecommerce-app\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-09-02T14:59:49.750Z] [runtime-status] [13076] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"C:\\Users\\HP\\Desktop\\ecommerce-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"C:\\\\Users\\\\HP\\\\Desktop\\\\ecommerce-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-09-02T14:59:49.751Z] [runtime-status] [13076] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\HP\\Desktop\\ecommerce-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\HP\\\\Desktop\\\\ecommerce-app\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-09-02T14:59:49.753Z] [runtime-status] [13076] Functions runtime initialized. {"cwd":"C:\\Users\\HP\\Desktop\\ecommerce-app\\functions","node_version":"16.13.1"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\HP\\\\Desktop\\\\ecommerce-app\\\\functions\",\"node_version\":\"16.13.1\"}"}}
+[debug] [2022-09-02T14:59:50.096Z] [runtime-status] [13076] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-09-02T14:59:50.098Z] [runtime-status] [13076] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Running api in signature http"}}
+[debug] [2022-09-02T14:59:50.162Z] [runtime-status] [13076] Listening to port: \\?\pipe\fire_emu_2bcd297d1778031b {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Listening to port: \\\\?\\pipe\\fire_emu_2bcd297d1778031b"}}
+[debug] [2022-09-02T14:59:50.243Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-09-02T14:59:50.244Z] [functions] Got req.url=/e-commerce-fadd7/us-central1/api, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-fadd7/us-central1/api, mapping to path=/"}}
+[debug] [2022-09-02T14:59:50.248Z] [runtime-status] [13076] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Ephemeral server handling GET request"}}
+[debug] [2022-09-02T14:59:50.261Z] [runtime-status] [13076] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-09-02T14:59:50.266Z] [worker-us-central1-api-1c41068f-8a95-44c6-8cf6-404bdac7b3a4]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-1c41068f-8a95-44c6-8cf6-404bdac7b3a4]: IDLE"}}
+[debug] [2022-09-02T14:59:50.267Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-09-02T15:03:55.183Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-09-02T15:03:55.184Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-09-02T15:03:55.184Z] Accepted request POST /e-commerce-fadd7/us-central1/api/payments/create?total=120593 --> us-central1-api
+[debug] [2022-09-02T15:03:55.184Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-09-02T15:03:55.184Z] [worker-us-central1-api-1c41068f-8a95-44c6-8cf6-404bdac7b3a4]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-1c41068f-8a95-44c6-8cf6-404bdac7b3a4]: BUSY"}}
+[debug] [2022-09-02T15:03:55.186Z] [runtime-status] [13076] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-09-02T15:03:55.190Z] [runtime-status] [13076] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Running api in signature http"}}
+[debug] [2022-09-02T15:03:55.191Z] [runtime-status] [13076] Listening to port: \\?\pipe\fire_emu_2bcd297d1778031b {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Listening to port: \\\\?\\pipe\\fire_emu_2bcd297d1778031b"}}
+[debug] [2022-09-02T15:03:55.304Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-09-02T15:03:55.305Z] [functions] Got req.url=/e-commerce-fadd7/us-central1/api/payments/create?total=120593, mapping to path=/payments/create?total=120593 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-fadd7/us-central1/api/payments/create?total=120593, mapping to path=/payments/create?total=120593"}}
+[debug] [2022-09-02T15:03:55.311Z] [runtime-status] [13076] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved BOOM!!! for this amount >>>  120593 {"user":"Payment Request Recieved BOOM!!! for this amount >>>  120593","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved BOOM!!! for this amount >>>  120593"}}
+[debug] [2022-09-02T15:03:55.338Z] [runtime-status] [13076] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-09-02T15:03:56.097Z] [worker-us-central1-api-1c41068f-8a95-44c6-8cf6-404bdac7b3a4]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-1c41068f-8a95-44c6-8cf6-404bdac7b3a4]: IDLE"}}
+[debug] [2022-09-02T15:03:56.097Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-09-02T15:05:16.391Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-09-02T15:05:16.391Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-09-02T15:05:16.391Z] Accepted request OPTIONS /e-commerce-fadd7/us-central1/api/payments/create?total=203196 --> us-central1-api
+[debug] [2022-09-02T15:05:16.391Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-09-02T15:05:16.392Z] [worker-us-central1-api-1c41068f-8a95-44c6-8cf6-404bdac7b3a4]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-1c41068f-8a95-44c6-8cf6-404bdac7b3a4]: BUSY"}}
+[debug] [2022-09-02T15:05:16.393Z] [runtime-status] [13076] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-09-02T15:05:16.395Z] [runtime-status] [13076] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Running api in signature http"}}
+[debug] [2022-09-02T15:05:16.395Z] [runtime-status] [13076] Listening to port: \\?\pipe\fire_emu_2bcd297d1778031b {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Listening to port: \\\\?\\pipe\\fire_emu_2bcd297d1778031b"}}
+[debug] [2022-09-02T15:05:16.501Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-09-02T15:05:16.501Z] [functions] Got req.url=/e-commerce-fadd7/us-central1/api/payments/create?total=203196, mapping to path=/payments/create?total=203196 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-fadd7/us-central1/api/payments/create?total=203196, mapping to path=/payments/create?total=203196"}}
+[debug] [2022-09-02T15:05:16.504Z] [runtime-status] [13076] Ephemeral server handling OPTIONS request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Ephemeral server handling OPTIONS request"}}
+[debug] [2022-09-02T15:05:16.506Z] [runtime-status] [13076] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-09-02T15:05:16.509Z] [work-queue] {"queueLength":1,"workRunningCount":1}
+[debug] [2022-09-02T15:05:16.509Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2022-09-02T15:05:16.509Z] Accepted request POST /e-commerce-fadd7/us-central1/api/payments/create?total=203196 --> us-central1-api
+[debug] [2022-09-02T15:05:16.521Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-09-02T15:05:16.521Z] [worker-pool] Adding worker with key us-central1-api, total=2 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=2"}}
+[debug] [2022-09-02T15:05:16.522Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-09-02T15:05:16.522Z] [worker-us-central1-api-a053f40b-42a8-4b64-82b9-b3a0e0fdb27e]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-a053f40b-42a8-4b64-82b9-b3a0e0fdb27e]: BUSY"}}
+[debug] [2022-09-02T15:05:16.523Z] [worker-us-central1-api-1c41068f-8a95-44c6-8cf6-404bdac7b3a4]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-1c41068f-8a95-44c6-8cf6-404bdac7b3a4]: IDLE"}}
+[debug] [2022-09-02T15:05:16.525Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-09-02T15:05:20.067Z] [runtime-status] [2032] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\HP\\Desktop\\ecommerce-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2032] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\HP\\\\Desktop\\\\ecommerce-app\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-09-02T15:05:20.070Z] [runtime-status] [2032] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"C:\\Users\\HP\\Desktop\\ecommerce-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2032] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"C:\\\\Users\\\\HP\\\\Desktop\\\\ecommerce-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-09-02T15:05:20.071Z] [runtime-status] [2032] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2032] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-09-02T15:05:20.074Z] [runtime-status] [2032] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"C:\\Users\\HP\\Desktop\\ecommerce-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2032] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"C:\\\\Users\\\\HP\\\\Desktop\\\\ecommerce-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-09-02T15:05:20.203Z] [runtime-status] [2032] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2032] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-09-02T15:05:20.204Z] [runtime-status] [2032] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.23.0","resolution":"C:\\Users\\HP\\Desktop\\ecommerce-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2032] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"C:\\\\Users\\\\HP\\\\Desktop\\\\ecommerce-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-09-02T15:05:20.205Z] [runtime-status] [2032] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"C:\\Users\\HP\\Desktop\\ecommerce-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2032] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"C:\\\\Users\\\\HP\\\\Desktop\\\\ecommerce-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-09-02T15:05:20.207Z] [runtime-status] [2032] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\HP\\Desktop\\ecommerce-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2032] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\HP\\\\Desktop\\\\ecommerce-app\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-09-02T15:05:20.209Z] [runtime-status] [2032] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"C:\\Users\\HP\\Desktop\\ecommerce-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2032] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"C:\\\\Users\\\\HP\\\\Desktop\\\\ecommerce-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-09-02T15:05:20.209Z] [runtime-status] [2032] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\HP\\Desktop\\ecommerce-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2032] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\HP\\\\Desktop\\\\ecommerce-app\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-09-02T15:05:20.209Z] [runtime-status] [2032] Functions runtime initialized. {"cwd":"C:\\Users\\HP\\Desktop\\ecommerce-app\\functions","node_version":"16.13.1"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2032] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\HP\\\\Desktop\\\\ecommerce-app\\\\functions\",\"node_version\":\"16.13.1\"}"}}
+[debug] [2022-09-02T15:05:20.704Z] [runtime-status] [2032] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2032] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-09-02T15:05:20.706Z] [runtime-status] [2032] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2032] Running api in signature http"}}
+[debug] [2022-09-02T15:05:20.716Z] [runtime-status] [2032] Listening to port: \\?\pipe\fire_emu_a416e46d11611f92 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2032] Listening to port: \\\\?\\pipe\\fire_emu_a416e46d11611f92"}}
+[debug] [2022-09-02T15:05:20.816Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-09-02T15:05:20.817Z] [functions] Got req.url=/e-commerce-fadd7/us-central1/api/payments/create?total=203196, mapping to path=/payments/create?total=203196 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-fadd7/us-central1/api/payments/create?total=203196, mapping to path=/payments/create?total=203196"}}
+[debug] [2022-09-02T15:05:20.822Z] [runtime-status] [2032] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2032] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved BOOM!!! for this amount >>>  203196 {"user":"Payment Request Recieved BOOM!!! for this amount >>>  203196","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved BOOM!!! for this amount >>>  203196"}}
+[debug] [2022-09-02T15:05:20.843Z] [runtime-status] [2032] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2032] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-09-02T15:05:21.557Z] [worker-us-central1-api-a053f40b-42a8-4b64-82b9-b3a0e0fdb27e]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-a053f40b-42a8-4b64-82b9-b3a0e0fdb27e]: IDLE"}}
+[debug] [2022-09-02T15:05:21.558Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-09-02T15:21:03.035Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-09-02T15:21:03.035Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-09-02T15:21:03.035Z] Accepted request POST /e-commerce-fadd7/us-central1/api/payments/create?total=120593 --> us-central1-api
+[debug] [2022-09-02T15:21:03.036Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-09-02T15:21:03.036Z] [worker-us-central1-api-1c41068f-8a95-44c6-8cf6-404bdac7b3a4]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-1c41068f-8a95-44c6-8cf6-404bdac7b3a4]: BUSY"}}
+[debug] [2022-09-02T15:21:03.039Z] [runtime-status] [13076] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-09-02T15:21:03.041Z] [runtime-status] [13076] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Running api in signature http"}}
+[debug] [2022-09-02T15:21:03.050Z] [runtime-status] [13076] Listening to port: \\?\pipe\fire_emu_2bcd297d1778031b {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Listening to port: \\\\?\\pipe\\fire_emu_2bcd297d1778031b"}}
+[debug] [2022-09-02T15:21:03.154Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-09-02T15:21:03.154Z] [functions] Got req.url=/e-commerce-fadd7/us-central1/api/payments/create?total=120593, mapping to path=/payments/create?total=120593 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-fadd7/us-central1/api/payments/create?total=120593, mapping to path=/payments/create?total=120593"}}
+[debug] [2022-09-02T15:21:03.156Z] [runtime-status] [13076] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved BOOM!!! for this amount >>>  120593 {"user":"Payment Request Recieved BOOM!!! for this amount >>>  120593","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved BOOM!!! for this amount >>>  120593"}}
+[debug] [2022-09-02T15:21:03.164Z] [runtime-status] [13076] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13076] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-09-02T15:21:03.991Z] [worker-us-central1-api-1c41068f-8a95-44c6-8cf6-404bdac7b3a4]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-1c41068f-8a95-44c6-8cf6-404bdac7b3a4]: IDLE"}}
+[debug] [2022-09-02T15:21:03.991Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-09-02T15:21:35.851Z] [worker-us-central1-api-1c41068f-8a95-44c6-8cf6-404bdac7b3a4]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-1c41068f-8a95-44c6-8cf6-404bdac7b3a4]: exited"}}
+[debug] [2022-09-02T15:21:35.851Z] [worker-us-central1-api-1c41068f-8a95-44c6-8cf6-404bdac7b3a4]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-1c41068f-8a95-44c6-8cf6-404bdac7b3a4]: FINISHED"}}
+[debug] [2022-09-02T15:21:35.853Z] [worker-us-central1-api-a053f40b-42a8-4b64-82b9-b3a0e0fdb27e]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-a053f40b-42a8-4b64-82b9-b3a0e0fdb27e]: exited"}}
+[debug] [2022-09-02T15:21:35.853Z] [worker-us-central1-api-a053f40b-42a8-4b64-82b9-b3a0e0fdb27e]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-a053f40b-42a8-4b64-82b9-b3a0e0fdb27e]: FINISHED"}}
+[error] 
+[error] Error: Storage Emulator Rules runtime exited unexpectedly.
+[debug] [2022-09-02T15:21:35.899Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.902Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.904Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.906Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.908Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.910Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.913Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.917Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.920Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.922Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.924Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.927Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.934Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.936Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.938Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.939Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.942Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.944Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.947Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.950Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.952Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.954Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.956Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.959Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.961Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.963Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.965Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.967Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.969Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.971Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.973Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.975Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.977Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.978Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.980Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.987Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at DerivedLogger.Readable.read (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:483:26)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.989Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.991Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.992Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.994Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:35.998Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.000Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.001Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.003Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.005Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.009Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at DerivedLogger.Readable.read (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:483:26)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.011Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.013Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.015Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.017Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.018Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.020Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.022Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.024Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.025Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.030Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at DerivedLogger.Readable.read (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:483:26)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.032Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.034Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.036Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.039Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.041Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.043Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.045Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.047Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.049Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.063Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at DerivedLogger.Readable.read (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:483:26)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.066Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.068Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.070Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-02T15:21:36.071Z] Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at WriteStream.Socket._writeGeneric (node:net:795:11)
+    at WriteStream.Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+[error] 
